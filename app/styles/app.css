@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body > .ember-view
+{
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    font: normal 100% 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-size-adjust: 100%;
+    line-height: normal;
+    color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+button,
+input,
+optgroup,
+textarea {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button {
+    cursor: pointer;
+    overflow: visible;
+    background-color: transparent;
+}
+
+input {
+    text-overflow: ellipsis;
+    outline: 0;
+    border: 0;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type='search'] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+img {
+    border: 0;
+}
+
+.tabs_nav {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+
+.tabs_list {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tabs_list li {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.tabs nav a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+
+.tabs nav a span {
+    vertical-align: middle;
+    font-size: 0.75em;
+}
+
+.tabs nav li.tab-current a {
+    color: #74777b;
+}
+

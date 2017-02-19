@@ -1,0 +1,15 @@
+<nav class="tabs_nav">
+    <ul class="tabs_list">
+        <li class="tab-current">{{#link-to "tabs.companies"}}<span>Companies</span>{{/link-to}}</li>
+        <li>{{#link-to "tabs.users"}}<span>Users</span>{{/link-to}}</li>
+        <li>{{#link-to "tabs.abusers"}}<span>Abusers</span>{{/link-to}}</li>
+    </ul>
+</nav>
+
+<div class="content_wrap">
+    <div class="panel panel-default">
+        <div class="panel-body"></div>
+        {{outlet}}
+    </div>
+</div>
+
